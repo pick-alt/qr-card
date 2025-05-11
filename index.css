@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+*{
+    font-family: "outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 15px;
+     background: #d5e1ef;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 700;
+    width: 288px;
+    color: #1F314F;
+}
+
+p{
+ font-size: 0.965rem;
+  line-height: 1.2rem;
+  color: hsl(222, 7%, 65%);
+  margin: 16px auto 0 auto ;
+font-weight: 400;
+  width: 256px;
+
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+.card{
+    max-width: 320px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.img-container{
+    overflow:hidden;
+}
+.img-container img{
+   border-radius: 10px;
+   max-width: 100%;
+}
+
+.content{
+   margin: 15px auto;
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    background: #d5e1ef;
+    min-height: 100vh;
+    position: relative;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1F314F;
+}
+
+p {
+    font-size: 0.965rem;
+    line-height: 1.2rem;
+    color: hsl(222, 7%, 65%);
+    margin: 16px auto 0 auto;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 320px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.img-container {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    margin: 15px auto;
+    padding: 0 10px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* Media Query untuk 375px (Mobile) */
+@media screen and (max-width: 375px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .card {
+        padding: 12px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        width: auto; /* Menghapus fixed width */
+        padding: 0 10px;
+    }
+    
+    p {
+        width: auto; /* Menghapus fixed width */
+        padding: 0 10px;
+        font-size: 0.9rem;
+        margin: 12px auto 0 auto;
+    }
+    
+    .content {
+        margin: 12px auto;
+    }
+    
+    .attribution {
+        position: static;
+        margin-top: 20px;
+    }
+}
